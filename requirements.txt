@@ -1,0 +1,9 @@
+streamlit
+pandas
+PyPDF2
+uuid
+altair
+os
+shutil
+json
+base64
