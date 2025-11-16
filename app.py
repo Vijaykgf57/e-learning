@@ -10,7 +10,7 @@ from quiz_generator import generate_quiz
 from auth import login_user, register_user
 import uuid
 import altair as alt  # Using Altair for pie charts (compatible with Streamlit)
-
+os.environ["STREAMLIT_SERVER_FILE_WATCHER_TYPE"] = "none"
 # ---------------- Attendance helpers & config ----------------
 ATT_FILE = "attendance.csv"
 RETENTION_DAYS = 31  # keep approximately 1 month (31 days)
